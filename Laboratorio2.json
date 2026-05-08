@@ -1,0 +1,396 @@
+{
+  "info": {
+    "name": "Laboratorio2",
+    "description": null,
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "POST - Create Satoru Gojo",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http:localhost:8080/api/sorcerer",
+          "protocol": "",
+          "host": [
+            "http:localhost:8080"
+          ],
+          "path": [
+            "api",
+            "sorcerer"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"nombre\": \"Satoru Gojo\",\n  \"grado\": \"Special Grade\",\n  \"tecnica\": \"Limitless / Six Eyes\",\n  \"escuela\": \"Tokyo\",\n  \"energia\": 9999.9,\n  \"isActive\": true\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "POST - Create Suguru Geto",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http:localhost:8080/api/sorcerer",
+          "protocol": "",
+          "host": [
+            "http:localhost:8080"
+          ],
+          "path": [
+            "api",
+            "sorcerer"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"nombre\": \"Suguru Geto\",\n  \"grado\": \"Special Grade\",\n  \"tecnica\": \"Cursed Spirit Manipulation\",\n  \"escuela\": \"Tokyo\",\n  \"energia\": 8500.0,\n  \"isActive\": false\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "POST - Create Aoi Todo",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http:localhost:8080/api/sorcerer",
+          "protocol": "",
+          "host": [
+            "http:localhost:8080"
+          ],
+          "path": [
+            "api",
+            "sorcerer"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"nombre\": \"Aoi Todo\",\n  \"grado\": \"Grade 1\",\n  \"tecnica\": \"Boogie Woogie\",\n  \"escuela\": \"Kyoto\",\n  \"energia\": 4200.5,\n  \"isActive\": true\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "POST - Create Megumi Fushiguro",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http:localhost:8080/api/sorcerer",
+          "protocol": "",
+          "host": [
+            "http:localhost:8080"
+          ],
+          "path": [
+            "api",
+            "sorcerer"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"nombre\": \"Megumi Fushiguro\",\n  \"grado\": \"Grade 1\",\n  \"tecnica\": \"Ten Shadows\",\n  \"escuela\": \"Tokyo\",\n  \"energia\": 5000.0,\n  \"isActive\": true\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "GET - Sorcerers",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http:localhost:8080/api/sorcerer",
+          "protocol": "",
+          "host": [
+            "http:localhost:8080"
+          ],
+          "path": [
+            "api",
+            "sorcerer"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "GET - Sorcerer By ID",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http:localhost:8080/api/sorcerer/{ID}",
+          "protocol": "",
+          "host": [
+            "http:localhost:8080"
+          ],
+          "path": [
+            "api",
+            "sorcerer",
+            "{ID}"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "DELETE - Sorcerer By ID  ",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http:localhost:8080/api/sorcerer/{ID}",
+          "protocol": "",
+          "host": [
+            "http:localhost:8080"
+          ],
+          "path": [
+            "api",
+            "sorcerer",
+            "{ID}"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "PUT - Sorcerer By ID",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http:localhost:8080/api/sorcerer/{id}",
+          "protocol": "",
+          "host": [
+            "http:localhost:8080"
+          ],
+          "path": [
+            "api",
+            "sorcerer",
+            "{id}"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"id\": \"{id}\",\n    \"nombre\": \"Satoru Gojo\",\n    \"grado\": \"Special Grade\",\n    \"tecnica\": \"Limitless / Six Eyes\",\n    \"escuela\": \"Tokyo\",\n    \"energia\": 1750.0,\n    \"isActive\": true\n  }",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "GET - Sorcerers By School",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http:localhost:8080/api/sorcerer/school/{school}",
+          "protocol": "",
+          "host": [
+            "http:localhost:8080"
+          ],
+          "path": [
+            "api",
+            "sorcerer",
+            "school",
+            "{school}"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "GET - Sorcerers By Grade",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http:localhost:8080/api/sorcerer/grade/{grade}",
+          "protocol": "",
+          "host": [
+            "http:localhost:8080"
+          ],
+          "path": [
+            "api",
+            "sorcerer",
+            "grade",
+            "{grade}"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "GET - Sorcerers Active",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http:localhost:8080/api/sorcerer/active",
+          "protocol": "",
+          "host": [
+            "http:localhost:8080"
+          ],
+          "path": [
+            "api",
+            "sorcerer",
+            "active"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "variable": []
+}
